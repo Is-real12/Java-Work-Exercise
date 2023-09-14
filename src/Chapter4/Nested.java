@@ -1,0 +1,18 @@
+package Chapter4;
+
+public class Nested {
+
+
+        public static void main(String[] args){
+
+            int num = 5;
+            for(int row = 1; row<=num; row++){
+                for(int column = 1; column<=row; column++){
+                    System.out.println(column+" ");
+
+                }
+            }
+        }
+
+
+}
