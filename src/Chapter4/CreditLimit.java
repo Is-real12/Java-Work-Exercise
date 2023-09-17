@@ -16,7 +16,7 @@ Scanner scanner = new Scanner(System.in);
             System.out.print("enter your item charged:  ");
             int itemCharged = scanner.nextInt();
             System.out.print("enter your credit for month:  ");
-            int creditForMonth = scanner.nextInt();;
+            int creditForMonth = scanner.nextInt();
             System.out.print("enter your credit limit:  ");
             int creditLimit = scanner.nextInt();
 
@@ -30,4 +30,9 @@ Scanner scanner = new Scanner(System.in);
         }
 
     }
-}
+    }
+
+
+
+
+

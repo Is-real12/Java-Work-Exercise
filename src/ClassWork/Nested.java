@@ -1,4 +1,4 @@
-package Chapter4;
+package ClassWork;
 
 public class Nested {
 
@@ -8,9 +8,10 @@ public class Nested {
             int num = 5;
             for(int row = 1; row<=num; row++){
                 for(int column = 1; column<=row; column++){
-                    System.out.println(column+" ");
+                    System.out.print(column+" ");
 
                 }
+                System.out.println(" ");
             }
         }
 

@@ -14,7 +14,8 @@ public class TaxCalculator {
         if (earnings <= 30_000) {
             int per = 15;
             int percentCal = earnings * per / 100;
-//            int totalTax = earnings - percentCal;
+//\/\/\/\/\/\//\/\/\/\//\/\/\/\/\//\/\/\/\/\//\/\/\/\/\/\///\/\/\/\/\/\//\/\/\/\/\//\/\/\/\/\/\//\/\/\/\/\/\/\//\/\/\/\/\/\//\/\/\/\/\//\/\/\/\/\/\//\/\/\/\//\/\/\/\/\/\//\/\/\/\/\/\/\/\//\/\/\/\/\/\//\/\//\\/\//\/\/\/\            int totalTax = earnings - percentCal;
+
 
             System.out.println("your total tax for " + earnings +" is: $"+ percentCal);
         }if (earnings > 30_000) {
