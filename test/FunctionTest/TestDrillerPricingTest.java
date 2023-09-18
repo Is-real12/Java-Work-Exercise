@@ -1,4 +1,4 @@
-package MrChiWeekEndSnack.Functions;
+package FunctionTest;
 
 import org.junit.jupiter.api.Test;
 
