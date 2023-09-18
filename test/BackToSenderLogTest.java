@@ -1,5 +1,3 @@
-package FunctionTest;
-
 import MrChiWeekEndSnack.Functions.BackToSenderLog;
 import org.junit.jupiter.api.Test;
 

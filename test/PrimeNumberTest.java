@@ -1,5 +1,3 @@
-package FunctionTest;
-
 import MrChiWeekEndSnack.Functions.PrimeNumber;
 import org.junit.jupiter.api.Test;
 

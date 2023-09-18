@@ -1,5 +1,3 @@
-package FunctionTest;
-
 import MrChiWeekEndSnack.Functions.IsSquare;
 import org.junit.jupiter.api.Test;
 

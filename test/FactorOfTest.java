@@ -1,5 +1,3 @@
-package FunctionTest;
-
 import MrChiWeekEndSnack.Functions.FactorOf;
 import org.junit.jupiter.api.Test;
 

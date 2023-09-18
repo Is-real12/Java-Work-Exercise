@@ -1,5 +1,3 @@
-package FunctionTest;
-
 import MrChiWeekEndSnack.Functions.isEven;
 import org.junit.jupiter.api.Test;
 
