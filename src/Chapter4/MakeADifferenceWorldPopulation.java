@@ -22,26 +22,26 @@ public class MakeADifferenceWorldPopulation {
 
 
                
-                double realPopulation = 8045311447.0;
-                double growthRate = 0.0083;
+        double realPopulation = 8045311447.0;
+        double growthRate = 0.0083;
 
 
-                System.out.println("Year\tPopulation\tPopulation Increase");
+        System.out.println("Year\tPopulation\tPopulation Increase");
 
 
-                double population = realPopulation;
-                int year = 1;
+        double population = realPopulation;
+        int year = 1;
 
-                while (year <=75){
-                    double increase = population * growthRate;
-                    population += increase;
+        while (year <=75){
+            double increase = population * growthRate;
+            population += increase;
 
 
-                    System.out.printf("%d\t%f\t\t%f%n", year, population, increase);
+            System.out.printf("%d\t\t%f\t\t%f%n", year, population, increase);
 
-                    year++;
-                }
-            }
+            year++;
         }
+    }
+}
 
 

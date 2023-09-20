@@ -6,8 +6,8 @@ public class Divide {
             return 0;
         }
 
-        double result = (double) dividend / divisor;
-        result = (int) (result * 100) / 100.0;
+        double result =  dividend / divisor;
+        result =  (result * 100) / 100.0;
 
         return result;
     }
