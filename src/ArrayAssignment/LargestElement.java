@@ -2,9 +2,9 @@ package ArrayAssignment;
 
 public class LargestElement{
 
-    public static int largester(){
+    public static int largester(int[] element){
 
-        int[] element = {1, 4, 6, 5, 2, 3, 9};
+//        int[] element = {1, 4, 6, 5, 2, 3, 9};
         int largest = element[0];
 
         for (int i=0; i < element.length; i++){
@@ -17,12 +17,17 @@ public class LargestElement{
 
     }
 
-        public static void reverseList() {
-            int[] pal = {3, 6, 9, 5};
+        public static boolean reverseList(int[] pal, int[] targeted) {
 
+int pali = 0;
             for (int i = pal.length - 1; i >= 0; i--) {
-                System.out.print(pal[i] + " ");
+                for (int j = 0; j < targeted.length; j++) {
+                    if(pal[i] == targeted[j]) return true;
+                }
+
             }
+
+            return  false;
         }
 
         public static boolean isElementInArray(int[] arr, int target) {
@@ -34,5 +39,23 @@ public class LargestElement{
             return false;
         }
 
+    public static void main(String[] args) {
+
+    }
+        public static int[] odd_num (int[] arr){
+        int list[] = new int[10];
+            int[] oddNum = {};
+            for (int i = 0; i < arr.length; i+=2) {
+                list[i] = arr[i];
+//                if (arr[i] % 2 == 0) {
+//                    list[0] += arr[i];
+//                    return new int[]{list[arr[i]] = arr[i]};
+//                }
+
+//            }
+
+        }
+            return list;
+    }
 
 }

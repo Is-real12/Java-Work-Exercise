@@ -4,26 +4,35 @@ import java.util.Scanner;
 
 public class Nokia {
     public static void main(String[] args) {
+
+
+
         Scanner scanner = new Scanner(System.in);
-         boolean isTrue;
+        boolean isTrue;
         System.out.println("""
-                               1. PhoneBook     2. Message      3. Chat         4. Call Register
-                               
-                               5. Tone          6. Settings     7. Call Divert  8. Game
-                               
-                               9. Calculator    10. Reminders   11. Clock       12. Profile
-                               
-                                                    13. SIM service""");
+                
+     
+     
+                1. PhoneBook     2. Message      3. Chat         4. Call Register
+                                               
+                5. Tone          6. Settings     7. Call Divert  8. Game
+                                               
+                9. Calculator    10. Reminders   11. Clock       12. Profile
+                                               
+                                     13. SIM service""");
         System.out.println("""
-                            Select your choice:
-                            """);
+                Select your choice:
+                """);
         String phoneBookMenu = scanner.nextLine();
+
 
         switch(phoneBookMenu) {
 
             case "1":
                 System.out.println("""
                                    PhoneBook Menu
+        press 0 to go back
+             
                         1. Search       
                         2. Service Nos      
                         3. Add Name        
@@ -41,42 +50,42 @@ public class Nokia {
                 switch (searchMenu) {
                     case "1":
                         System.out.println("""
-                                
-                                        Search....""");
+                                                                
+                                Search....""");
                         break;
                     case "2":
                         System.out.println("""
-                                        Service Nos 
-                                        
-                                        """);
+                                Service Nos 
+                                                                        
+                                """);
                         break;
                     case "3":
                         System.out.println("""
-                                         Add Name """);
+                                Add Name """);
                         break;
                     case "4":
                         System.out.println("""
-                                          Erase 
-                                           
-                                           """);
+                                Erase 
+                                 
+                                 """);
                         break;
                     case "5":
                         System.out.println("""
-                                        Edit 
-                                        
-                                        """);
+                                Edit 
+                                                                        
+                                """);
                         break;
                     case "6":
                         System.out.println("""
-                                        Assign Tone....
-                                        
-                                        """);
+                                Assign Tone....
+                                                                        
+                                """);
                         break;
                     case "7":
                         System.out.println("""
-                                        Send 'B' Card 
-                                        
-                                        """);
+                                Send 'B' Card 
+                                                                        
+                                """);
                         break;
                     case "8":
                         System.out.println("""
@@ -88,20 +97,25 @@ public class Nokia {
                         break;
                     case "9":
                         System.out.println("""
-                                            Erase 
-                                             """);
+                                Erase 
+                                 """);
                         break;
                     case "10":
                         System.out.println("""
-                                            Edit  
+                                Edit  
 
-                                            """);
+                                """);
                         break;
+                    case "0":
+                        return;
+
                     default:
+
                         System.out.println("""
-                                            Invalid
-                                            
-                                            """);
+                                Invalid
+                                                                            
+                                """);
+
 
                 }
 
