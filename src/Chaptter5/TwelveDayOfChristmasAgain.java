@@ -61,11 +61,11 @@ public class TwelveDayOfChristmasAgain {
                         break;
 
                     case 1:
-                        System.out.println("two studip dove ");
+                        System.out.println("Two Turtle doves ");
                         break;
 
                     case 2:
-                        System.out.println("three dum hen");
+                        System.out.println("three fresh hen");
                         break;
 
 
@@ -108,11 +108,11 @@ public class TwelveDayOfChristmasAgain {
                         System.out.println("two studip dove ");
                         break;
                 }
-
-
             }
+
             System.out.println();
         }
 
     }
 }
+

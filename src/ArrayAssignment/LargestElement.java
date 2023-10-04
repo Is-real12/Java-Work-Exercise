@@ -3,30 +3,21 @@ package ArrayAssignment;
 public class LargestElement{
 
     public static int largester(int[] element){
-
-//        int[] element = {1, 4, 6, 5, 2, 3, 9};
         int largest = element[0];
-
         for (int i=0; i < element.length; i++){
-
             if(element [i] > largest){
                 largest= element[i];
             }
         }
         return largest;
-
     }
 
         public static boolean reverseList(int[] pal, int[] targeted) {
-
-int pali = 0;
             for (int i = pal.length - 1; i >= 0; i--) {
                 for (int j = 0; j < targeted.length; j++) {
                     if(pal[i] == targeted[j]) return true;
                 }
-
             }
-
             return  false;
         }
 
@@ -39,9 +30,7 @@ int pali = 0;
             return false;
         }
 
-    public static void main(String[] args) {
 
-    }
         public static int[] odd_num (int[] arr){
         int list[] = new int[10];
             int[] oddNum = {};
@@ -53,9 +42,34 @@ int pali = 0;
 //                }
 
 //            }
-
         }
             return list;
+
+
+
+
+
     }
 
+    public static void main(String[] args) {
+        String name = new String("ade");
+        String names = "ade";
+
+        System.out.println(name.equals(names));
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
