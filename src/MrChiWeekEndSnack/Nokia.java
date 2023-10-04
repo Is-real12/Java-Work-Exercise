@@ -55,23 +55,23 @@ public class Nokia {
                         break;
                     case "2":
                         System.out.println("""
-                                Service Nos 
+                                Service Nos
                                                                         
                                 """);
                         break;
                     case "3":
                         System.out.println("""
-                                Add Name """);
+                                Add Name""");
                         break;
                     case "4":
                         System.out.println("""
-                                Erase 
+                                Erase
                                  
                                  """);
                         break;
                     case "5":
                         System.out.println("""
-                                Edit 
+                                Edit
                                                                         
                                 """);
                         break;
@@ -83,7 +83,7 @@ public class Nokia {
                         break;
                     case "7":
                         System.out.println("""
-                                Send 'B' Card 
+                                Send 'B' Card
                                                                         
                                 """);
                         break;
@@ -97,12 +97,12 @@ public class Nokia {
                         break;
                     case "9":
                         System.out.println("""
-                                Erase 
+                                Erase
                                  """);
                         break;
                     case "10":
                         System.out.println("""
-                                Edit  
+                                Edit
 
                                 """);
                         break;
@@ -159,7 +159,7 @@ public class Nokia {
             case "3":
                 System.out.println("""
                                                 Chat Menu
-                                    Nothing to see here;            
+                                    Nothing to see here        
                                     
                                     """);
 
@@ -173,7 +173,7 @@ public class Nokia {
                                     5. Show call duration
                                     6. Show call cost
                                     7. Call cost Settings
-                                    8. Prepaid Credit  
+                                    8. Prepaid Credit
                                               
                                     """);
                 System.out.println("Enter your Choice: ");
@@ -319,7 +319,7 @@ break;
                                    2. Date Settings
                                    3. Stop Watch
                                    5. Countdown time
-                                   6. Auto update of date and time 
+                                   6. Auto update of date and time
                                     """);
 
 
@@ -343,19 +343,6 @@ break;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
     }
-
-
 
 }
