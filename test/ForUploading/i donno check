@@ -1,0 +1,17 @@
+a method can be invoked with the dot operator (.) (correct)
+is called a block of code or a local scope or local variable (correct)
+the arguement statement (stupidly wrong it return)
+the keyword void (correct)
+
+e. can be added from the bottom and can be removed from the top (correct)
+f.
+g. return; return expression; open and closed bracket; (correct)
+h. SecureRandom (correct)
+
+i. 
+j. 
+
+solid principle
+srp while state that your method should  have only one reason to change (should do one think and one thing and one think only)
+
+solid reciprocal principle

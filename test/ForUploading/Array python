@@ -1,0 +1,43 @@
+the address of an ibj must be a positive integer, not floating numbers
+
+it becaus array is an obj so when decleard without a size it null
+
+int is a datatype
+int array is not a datatype
+
+it turned out that you can create an array obj inout an index of double and cast it in the array eg String n = new String[(int) 3.5]
+like this 
+and you cannot get index from negative
+
+you can also loop through the array and * it by 2 or any num
+
+and when you print it put it will give you the value you want 
+
+so you can also skip by two while ilterating through the array like printing the oddly place number
+
+eg. for()int i = 0; i < age.lenght; i+=2
+
+the i += 2 is to skip.
+
+
+task collect 10 scores store in array
+
+first task :
+create a 3 by 3 char array;
+so like int [] [] score = new int[3] [3];
+this is a 3 by 3 arrays and to call  e.g it like [[1,2,3], [1,2,3] [1,2,3]]
+
+task  [[x, o, x], [x, x,x,o], [o,x,x]]
+
+and print it to this form 
+x   o   x
+x   x   o
+o   x   x
+
+
+eg 
+grade [] [] = 8
+grade[0] [1] = 5;
+grade [1] [0] = 15
+so like this i called the array so the outer array index and the inner array index
+

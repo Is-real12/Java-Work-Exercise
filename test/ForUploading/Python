@@ -1,0 +1,11 @@
+positional arguement: this is an arguement that must be place in the same position that the parameter was declared
+ and when input in the argument when calling the function will or might misbehave and give a ligical error.
+
+keyword arguement: this here is when the arguement can place anywhere in any position without caring about the placement
+eg in the param we 
+
+when making a keyword argument menaing you can declare the params name and scatter the value when calling the function. the positional arguement must come first before the keyword arg
+eg function(999, 21, name = "kuye") name = is a keyword arg
+
+abituary arg is when you dont know the number or argument the function caller might input you use an arbituary arg a star before the param declaration
+*name

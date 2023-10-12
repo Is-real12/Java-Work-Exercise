@@ -1,0 +1,31 @@
+1. *Find the Maximum Element:*
+   - Given an array of integers, find the maximum element in the array.
+
+2. *Find the Minimum Element:*
+   - Given an array of integers, find the minimum element in the array.
+
+3. *Calculate the Average:*
+   - Given an array of integers, calculate the average (mean) of all the elements.
+
+4. *Reverse an Array:*
+   - Given an array of integers, reverse the elements of the array.
+
+5. *Find the Sum of all Elements:*
+   - Given an array of integers, calculate and return the sum of all elements.
+
+6. *Find Duplicate Elements:*
+   - Given an array of integers, find and print all duplicate elements.
+
+7. *Check for Palindrome:*
+   - Given an array of integers, check if the array is a palindrome (the elements read the same forwards and backwards).
+
+8. *Count Occurrences of an Element:*
+   - Given an array of integers and a target element, count and return the number of occurrences of that element in the array.
+
+9. *Find Second Largest Element:*
+   - Given an array of integers, find and return the second largest element.
+
+10. *Sort the Array:*
+    - Given an array of integers, sort the array in ascending order.
+
+Feel free to choose a specific question to work on, or if you have a particular one in mind, let me know!

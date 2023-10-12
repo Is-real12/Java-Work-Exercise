@@ -1,0 +1,42 @@
+somthing about test 
+then import unittest as divine -->  this is it an import a name so when ever you need the import you can always call divine😁️
+
+import list_exercise😒️
+
+then create a class 
+class TestList(unittest.TestCas): this somthing in the params is called an inheritance 🙄️
+
+or you can do this TestCase in the import so 
+from unittest import TestCase --> so right now you are only impporting module that you need 🥱️
+ so now let us write a failing test first from unittest import TestCase
+so def 🙄️
+
+
+
+we can use an orgumented assignment because list is mutable
+with the enumerate function i can have access to the index and an iten in the list at the sam etime   list;
+e.g for names, age in enumerate(name):
+PRINT(F'{NAME} {age}')😁️
+()
+
+
+the fuckin in keyword is to check wheather a particular item is inside a list so (in) turn out there is also not in, since he is🖕️
+
+
+THE NUMBER OF VAR AT TE LEFT SIDE MUST BE EQUAL TO THE NUM OF VAR AT THE RIGHT SIDE EG😊️
+
+so instaed doing this long journing:
+x = tuple[0]
+y = tuple[1]
+z = tuple[2]
+
+
+you do-:
+X,Y,Z = TURPLE
+
+you can concatinate a turple with  a list;
+list are mutable and turple are immutable
+so you can concatinae a list to a turple but never a turple to a list. eg
+😜️😛️
+
+so to write a tuple you do turple1 = 1, 2, 'DIVINITY'

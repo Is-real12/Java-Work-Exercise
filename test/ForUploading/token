@@ -1,0 +1,64 @@
+usless token for linux 
+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
+
+
+
+Is-real12
+new real token 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
+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
+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
+usless password:
+H345cxv%$
+
+
+key code sh.pycharm.sh
+
+so fo unknow time of arguement we use int... name
+
+and to loop throoug it we do for(name : name)
+u think that dut is in like python
+
+turns out you can actually do cal.namess(new int [] {23, 2,3 5, 6,})
+and you pass in an array straight
+
+and it is called variable lenght arguement
+
+
+
+
+Enums
+enums are special class that hold constants
+
+so to define an enum u do 
+public enum days{
+constant should be in capital 
+enums are public static and finals
+
+
+
+in a method take in two arg the first arg is an array and the second arg is a number
+
+
+in a way loop pick the fisr one if state after three character 
+
+just us a multidimen array
+or use a multidimen list
+the second parameter is how you want to divide the array
+
+try python list
+write a funtion {"A", "M", "C", "W ","I", "T"};
+and after two character swap the next character with the skiped  
+
+
+i mean the index of age[3] creating two list swaping after saving the neede in different list after a condition
+
+AWMICT
+
+use if i <= 3 3 divide i
+and if i >3 divide by 3
+
+use the litcode method and use nested and use modulo
+
+
+
+what if ypu actually use if statement to seperate the the  so make two loops 
