@@ -1,8 +1,7 @@
 package ArrayAssignment;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Scanner;
-public class NewClass {
+public class CheckoutShopping {
 
 
     public static void main(String[] args) {
@@ -42,6 +41,7 @@ public class NewClass {
 
             if (!choice.equalsIgnoreCase("yes")) {
                 addMore = false;
+
             }
         }
         System.out.println("What is your name: ");

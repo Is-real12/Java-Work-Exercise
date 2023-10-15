@@ -1,7 +1,7 @@
-package WeekendAssignment;
+package ArrayAssignment;
 
 import java.util.Arrays;
-public class Preceedures {
+public class ATMValidityInArrayList {
     public static void main(String[] args) {
     int count = 0;
     String cardType = " ";

@@ -1,4 +1,4 @@
-package WeekendAssignment;
+package ArrayAssignment;
 
 import java.util.Scanner;
 
