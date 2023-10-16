@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Objects;
 import java.util.Scanner;
-
 public class MBTI {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -32,9 +31,10 @@ public class MBTI {
                 {"A. facts, things, what is"}, {"B. ideas, dreams, what could be"}, {"philosophical"},
                 {"A. matter of fact, issue-oriented"}, {"B. sensitive, people-oriented, compassionate"},
                 {"A. control, govern"}, {"B. latitude, freedom"}};
+        System.out.print("Enter your name: ");
+        String name = scanner.next();
         for (int i = 0; i < allQestion.length; i++) {
-
-                System.out.printf("%-60s", Arrays.toString(allQestion[i]));
+                System.out.printf("%-60s", allQestion[i]);
                 if (i %2==1 ) {System.out.println();
                     System.out.print("Enter a choice: ");
                     String choice = scanner.next();
@@ -56,12 +56,9 @@ public class MBTI {
                                 Btimes += 1;
                                 joinA.add(Arrays.toString(allQestion[i]));
                                 break;
-
                             default:
                                 System.out.println("My response should be between A and B");
                         }
-//                    }else {
-
                     }
                 if (i == allQestion.length-1){
                     System.out.println("\n" +
@@ -75,7 +72,7 @@ public class MBTI {
                             "Judging J Vs Perceptive P:\n" +
                             "Questions\n" +
                             "semicolon\n" +
-                            "Property of Semcolon Village Limited.All rights reserved by Buhari\n");
+                            "Property of Semcolon Village Limited.All rights reserved by \n");
                 }
                     ;}
         for (int i = 0; i < joinA.size(); i++) {
@@ -85,27 +82,28 @@ public class MBTI {
                 System.out.println("Number of B Selected "+Btimes);
                 System.out.println("\n");
             }
-
-            System.out.println("""
+        }
+        System.out.println("""
                     NE
                     Healer
                     The Thought ful Idealist (MBTI)
                     The Mediator (16Personalities)
                     The INFP Personality Type
                     INFPs are imaginative idealists, guided by their own core values and beliefs.
-                    TO a Healer, possibilities are paramount; the realism of the moment is only of passing concern . They see potential for a better future, and pursue truth and meaning with their own individual flair
-                    INFPs are sensitive, caring, and compassionate, and are deeply concerned with the personal growth of themselves and others. Individualistic and nonjudgmental, INFPs believe that each person must find their own path. They enjoy spending time exploring their own ideas and values, and are gently encouraging to others to do the same. INFPS are creative and often artistic; they enjoy finding new outlets for self-expression.
+                    TO a Healer, possibilities are paramount; the realism of the moment is only of passing concern .
+                    They see potential for a better future, and pursue truth and meaning with their own individual flair
+                    INFPs are sensitive, caring, and compassionate, and are deeply concerned with the personal growth of
+                    themselves and others. Individualistic and nonjudgmental, INFPs believe that each person must find their
+                    own path. They enjoy spending time exploring their own ideas and values, and are gently encouraging to
+                    others to do the same. INFPS are creative and often artistic; they enjoy finding new outlets for self-expression.
                     What does INFP stand for?
                     INFP is one of the sixteen personality types created by Katharine Briggs and
-                    Isabel Myers, creators of the Myers-Briggs Type Indicator (MBTI®). INFP stands for Introversion, iNtuition, Feeling, and Perceiving, which are four core personality traits based on the work of psychologist C.G. Jung.
-                    Each of the four letters of the INFP code signifies a key personality trait of this type. INFPs are energized by time alone (Introverted), focuS on ideas and concepts rather than facts and details (iNtuitive), make decisions based on feelings and values (Feeling), and prefer to be spontaneoUs and flexible rather than planned and organized (Perceiving)
+                    Isabel Myers, creators of the Myers-Briggs Type Indicator (MBTI®). INFP stands
+                    for Introversion, iNtuition, Feeling, and Perceiving, which are four core personality
+                    traits based on the work of psychologist C.G. Jung.
+                    Each of the four letters of the INFP code signifies a key personality trait of this type.
+                    INFPs are energized by time alone (Introverted), focuS on ideas and concepts rather than facts and details (iNtuitive),
+                     make decisions based on feelings and values (Feeling), and prefer to be spontaneoUs and flexible rather than planned and organized (Perceiving)
                                 """);
-
-        }
-
-
-
-
-
     }
 }
