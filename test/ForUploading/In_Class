@@ -1,5 +1,0 @@
-def fibonacci(number: int)-> int:
-    number1 = ' ' 
-
-    for i in range()
-    number += 'fizzbuzz'
